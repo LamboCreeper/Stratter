@@ -1,0 +1,30 @@
+{
+  "name": "stratter",
+  "version": "1.0.0",
+  "description": "A string formatting package for Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LamboCreeper/Stratter.git"
+  },
+  "keywords": [
+    "string",
+    "formatter",
+    "stratter"
+  ],
+  "author": "LamboCreeper",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/LamboCreeper/Stratter/issues"
+  },
+  "homepage": "https://github.com/LamboCreeper/Stratter#readme",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-codesupport": "^1.0.1"
+  }
+}
